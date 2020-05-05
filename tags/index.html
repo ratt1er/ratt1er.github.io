@@ -11,7 +11,7 @@
 
     <title>
         
-        Ratt1er
+        标签 - Ratt1er
         
     </title>
 
@@ -57,13 +57,13 @@
     </div>
     <div class="contents" id="nav-content">
         <ul>
-            <li  class=active >
+            <li >
                 <a href="/">
                     <i class="iconfont icon-shouye1"></i>
                     <span>HOME</span>
                 </a>
             </li>
-            <li >
+            <li  class=active >
                 <a href="/tags">
                     <i class="iconfont icon-biaoqian1"></i>
                     <span>TAGS</span>
@@ -115,57 +115,82 @@
     
     <div class="index-middle">
         <!-- Main Content -->
-        
-<div class="post-preview-container" style="min-height: 720px">
+        <div id='tag_cloud' class="tags">
     
-    <div class="post-preview">
-        <div class="post-time">2020-05-05</div>
-        <div class="post-info">
-            <a href="/2020/05/05/Vim的一些键位图/">
-                <h3>
-                    Vim的一些键位图
-                </h3>
-            </a>
-            <p>
-                
-                <span>/</span>
-                
-                <a class="tag" href="/tags/#教程" title="教程">教程</a>
-                <span>/</span>
-                
-                
-            </p>
-        </div>
-    </div>
+    <a href="#记录" title="记录" rel="1">记录</a>
     
+    <a href="#博客" title="博客" rel="1">博客</a>
+    
+    <a href="#教程" title="教程" rel="1">教程</a>
+    
+</div>
+
+<!-- 标签列表 -->
+
+
+<div class="one-tag-list">
+                <span class="fa fa-tag listing-seperator" id="记录">
+                    <span class="tag-text">记录</span>
+                </span>
+    
+    <!-- <li class="listing-item">
+    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+    </li> -->
     <div class="post-preview">
-        <div class="post-time">2020-05-04</div>
-        <div class="post-info">
-            <a href="/2020/05/04/这个博客是怎么搭建的-我的第一篇博客/">
-                <h3>
-                    这个博客是怎么搭建的-我的第一篇博客
-                </h3>
-            </a>
-            <p>
-                
-                <span>/</span>
-                
-                <a class="tag" href="/tags/#记录" title="记录">记录</a>
-                <span>/</span>
-                
-                <a class="tag" href="/tags/#博客" title="博客">博客</a>
-                <span>/</span>
-                
-                
-            </p>
-        </div>
+        <a href="/2020/05/04/这个博客是怎么搭建的-我的第一篇博客/">
+            <h2 class="post-title">
+                这个博客是怎么搭建的-我的第一篇博客
+            </h2>
+            
+        </a>
+        <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
     </div>
     
 </div>
-<ul class="pager">
+
+<div class="one-tag-list">
+                <span class="fa fa-tag listing-seperator" id="博客">
+                    <span class="tag-text">博客</span>
+                </span>
     
+    <!-- <li class="listing-item">
+    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+    </li> -->
+    <div class="post-preview">
+        <a href="/2020/05/04/这个博客是怎么搭建的-我的第一篇博客/">
+            <h2 class="post-title">
+                这个博客是怎么搭建的-我的第一篇博客
+            </h2>
+            
+        </a>
+        <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
+    </div>
     
-</ul>
+</div>
+
+<div class="one-tag-list">
+                <span class="fa fa-tag listing-seperator" id="教程">
+                    <span class="tag-text">教程</span>
+                </span>
+    
+    <!-- <li class="listing-item">
+    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+    </li> -->
+    <div class="post-preview">
+        <a href="/2020/05/05/Vim的一些键位图/">
+            <h2 class="post-title">
+                Vim的一些键位图
+            </h2>
+            
+        </a>
+        <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
+    </div>
+    
+</div>
+
 
     </div>
 </div>
