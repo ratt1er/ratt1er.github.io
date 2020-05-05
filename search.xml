@@ -8,25 +8,24 @@
 <p>这里推荐用国内的源：<a href="http://nodejs.cn/download/" target="_blank" rel="noopener" title="这里推荐用国内的源">传送门</a><br>注意，目前(20/05/04)最新的14.x不支持Windows7及以前版本，windows7及以前建议使用12.x版本:<a href="https://npm.taobao.org/mirrors/node/" target="_blank" rel="noopener" title="以往版本传送门">传送门</a></p>
 </blockquote>
 <p>这里的安装没有什么要注意的，一路确定即可。</p>
-<h4 id="2-检查是否安装成功检查是否安装成功"><a href="#2-检查是否安装成功检查是否安装成功" class="headerlink" title="2.检查是否安装成功检查是否安装成功"></a>2.检查是否安装成功检查是否安装成功</h4><p>打开cmd窗口分别输入</p>
-<pre><code>node -v
-npm -v</code></pre><p>成功的标志就是能分别输出版本号。</p>
+<h4 id="2-检查是否安装成功检查是否安装成功"><a href="#2-检查是否安装成功检查是否安装成功" class="headerlink" title="2.检查是否安装成功检查是否安装成功"></a>2.检查是否安装成功检查是否安装成功</h4><p>打开cmd窗口分别输入<br><code>node -v</code><br><code>npm -v</code><br>成功的标志就是能分别输出版本号。</p>
 <h4 id="3-切换npm的国内源"><a href="#3-切换npm的国内源" class="headerlink" title="3.切换npm的国内源"></a>3.切换npm的国内源</h4><blockquote>
 <p>这里用了阿里云（淘宝）的源</p>
 </blockquote>
 <p>cmd输入</p>
-<pre><code>npm config set registry https://registry.npm.taobao.org/ </code></pre><p>同2，输入</p>
-<pre><code>cnpm -v</code></pre><p>应该能看到输出的版本号</p>
+<p><code>npm config set registry https://registry.npm.taobao.org/</code><br>同2，输入</p>
+<p><code>cnpm -v</code><br>应该能看到输出的版本号</p>
 <h4 id="4-安装Hexo"><a href="#4-安装Hexo" class="headerlink" title="4.安装Hexo"></a>4.安装Hexo</h4><p>cmd输入 </p>
-<pre><code>cnpm install hexo</code></pre><h4 id="5-建立本机的hexo博客"><a href="#5-建立本机的hexo博客" class="headerlink" title="5.建立本机的hexo博客"></a>5.建立本机的hexo博客</h4><p>新建一个文件夹，专门存放博客文件</p>
+<p><code>cnpm install -g hexo-cli</code></p>
+<h4 id="5-建立本机的hexo博客"><a href="#5-建立本机的hexo博客" class="headerlink" title="5.建立本机的hexo博客"></a>5.建立本机的hexo博客</h4><p>新建一个文件夹，专门存放博客文件</p>
 <blockquote>
 <p>下文如无特殊说明均在此文件夹内操作</p>
 </blockquote>
-<p>cmd输入</p>
-<pre><code>hexo init</code></pre><blockquote>
+<p>cmd输入<br><code>hexo init</code></p>
+<blockquote>
 <p>因为国内网络环境原因可能会下载非常慢，可以使用我已经下载好的文件<br><a href="https://pan.baidu.com/s/1o3yT7oDd27s6-T_BexckVw" target="_blank" rel="noopener" title="提取码：nmdo">提取码：nmdo</a></p>
 </blockquote>
-<h4 id="6-本地运行"><a href="#6-本地运行" class="headerlink" title="6.本地运行"></a>6.本地运行</h4><p>未完待续</p>
+<h4 id="6-本地运行"><a href="#6-本地运行" class="headerlink" title="6.本地运行"></a>6.本地运行</h4><p>如果第五步操作成功目录应该有这些东西：<br><img src="https://s1.ax1x.com/2020/05/05/YiKX9g.png" alt="图片1"><br>接着输入<code>hexo s</code><br>即可完成搭建<br><img src="https://s1.ax1x.com/2020/05/05/YiMACF.png" alt="图片2"><br>浏览器输入<code>localhost:4000</code>即可查看效果<br><img src="https://s1.ax1x.com/2020/05/05/YiQiqI.png" alt="图片3"></p>
 ]]></content>
   </entry>
 </search>
